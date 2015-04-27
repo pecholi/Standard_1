@@ -359,7 +359,8 @@ public void test_1_ConfigurationReset_NewUserLogin() throws Exception {
     driver.findElement(By.xpath("//div[@id='admin-config-item-FileLog']/div/div/div/div[2]/button")).click();
     Thread.sleep(3000);
     System.out.println("Sorting Logs by order");
-    driver.findElement(By.cssSelector("#general-alert > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.btn-primary")).click();
+//    driver.findElement(By.cssSelector("#general-alert > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.btn-primary")).click();
+    driver.findElement(By.xpath(".//*[@id='mgmt-events-list']/div[1]/div[1]/ul/span/button")).click();
     Thread.sleep(5000);
     driver.findElement(By.linkText("File Log Settings")).click();
     Thread.sleep(5000);
