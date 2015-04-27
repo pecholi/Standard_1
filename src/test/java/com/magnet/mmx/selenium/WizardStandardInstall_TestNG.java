@@ -360,10 +360,10 @@ public void test_1_ConfigurationReset_NewUserLogin() throws Exception {
     Thread.sleep(3000);
     System.out.println("Sorting Logs by order");
 //    driver.findElement(By.cssSelector("#general-alert > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.btn-primary")).click();
-    driver.findElement(By.xpath(".//*[@id='mgmt-events-list']//button")).click();
-    Thread.sleep(2000);
+    driver.findElement(By.xpath("//*[@id='mgmt-events-list'] //button")).click();
+    Thread.sleep(5000);
     driver.findElement(By.linkText("File Log Settings")).click();
-    Thread.sleep(2000);
+    Thread.sleep(5000);
   //keep for test case with disabled Email in Configuration & Link becomes visible
 //    driver.findElement(By.linkText("Email Alerts")).click();
 //    Thread.sleep(5000);
