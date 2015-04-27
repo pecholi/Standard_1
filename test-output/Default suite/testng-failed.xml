@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer$ExecuteStartServer">
+      <class name="com.magnet.mmx.selenium.WizardStandardInstall_TestNG">
         <methods>
-          <include name="startServer"/>
-        </methods>
-      </class> <!-- com.magnet.mmx.selenium.WizardCustomInstall_TestNG$ExecuteStopServer$ExecuteStartServer -->
-      <class name="com.magnet.mmx.selenium.WizardCustomInstall_TestNG">
-        <methods>
-          <include name="testConfiguration_CommonReset"/>
-          <include name="testConfigurationReset_1"/>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="Sign_inNout"/>
+          <include name="test_2_ConfigurationReset_Logs"/>
         </methods>
-      </class> <!-- com.magnet.mmx.selenium.WizardCustomInstall_TestNG -->
+      </class> <!-- com.magnet.mmx.selenium.WizardStandardInstall_TestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
